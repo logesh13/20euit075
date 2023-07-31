@@ -9,11 +9,9 @@ const Home = () => {
       .then(data => setuidata(data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
-
   const formatTime = (timeObject) => {
     return `${timeObject.Hours}:${timeObject.Minutes}:${timeObject.Seconds}`;
   };
-
   return (
     <div>
       <h1>Train Information</h1>
@@ -21,6 +19,7 @@ const Home = () => {
         {uidata.map(train => (
           <li key={train.id}>
             {train.trainName} - Departure Time: {formatTime(train.departureTime)}
+            {train.seatsAvailable }
           </li>
         ))}
       </ul>
