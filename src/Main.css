@@ -1,0 +1,32 @@
+.batch
+{
+    background-color: rgb(233, 233, 233);
+    padding :5% ;
+    border: 2px solid black;
+    
+}
+
+.batchinside
+{
+    margin-left: -1145px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.dept
+{
+    margin-right: -1100px;
+    margin-top :-50px
+}
+
+.seats
+{
+    margin-right: -1100px;
+    
+}
+.seats2
+{
+    margin-right: -1050px;
+    color: red;
+    
+}
